@@ -3,18 +3,19 @@
 
 void main(){
 		char str[100];
-		int idx=0;
+		int idx;
+		int max=str[0];
+		int count;
 
 		printf("영단어를 입력하세요: ");
 		scanf("%s",str);
 
-
-	if(arr[index] > max){
-				max = arr[index];
-		}if(arr[index] < min){
-				min = arr[index];
+		while(str[idx] != '\0'){
+				idx++;
+			for(count = 0;count < idx;count++)
+				if(max < str[idx])
+					max = str[idx];
 		}
-	
-	printf("가장큰수 %d\n", max);
+	printf("아스키코드값이 가장 큰 단어: %c\n", max);
 }
 

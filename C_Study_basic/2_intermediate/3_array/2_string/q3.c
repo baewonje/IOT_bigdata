@@ -11,6 +11,6 @@ void main(){
 		while(str[idx] != '\0'){
 			idx++;
 		}
-		printf("%d", idx);
+		printf("입력하신 영단어의 수는 %d 입니다.", idx);
 }
 

@@ -19,14 +19,8 @@ void main (){
 				min = arr[index];
 		}
 	}
-	printf("입력한 숫자(입력 순서대로 정렬): ");
 	
-	for(index=0;index<max_count;index++){
-			printf("%d ", arr[index]);
-	}
-			average = total / max_count;
-			printf("\n총합: %d , 평균: %d\n",total, average);
-
+			printf("\n총합: %d \n",total);
 			printf("가장큰수 %d\n", max);
 			printf("가장작수 %d\n", min);
 }
