@@ -7,16 +7,20 @@ void main(){
 	int *ptr1=&arr[5];
 	int length;
 	int i;
-	int count=3;
-	int total=0;
+	int first;
+	int last;
 
 	length = sizeof(arr)/sizeof(int);
 
-	for(i=0;i<count;i++){
+	for(i=0;i<length/2;i++){
+		arr[i] = i+1;
+		last=(*ptr++);
+		*ptr=(*ptr1--);
+		*ptr1=last;
 
-	
-		printf("%d%d",*ptr1,*ptr);
 	}	
-
+	for(i=0;i<length;i++){
+		printf("%d",ptr1);
+	}
 }
 
