@@ -1,0 +1,14 @@
+int num;
+scanf("%d", num); <= call by value 되기 때문에 num에는 
+					scanf 내부의 결과가 적용이 안된다.
+					
+int scanf(char* option, int second_param){
+..........
+	second_param=5;
+	}
+	
+	scanf("%d", &num);
+	int scanf(char* option, int second_param){
+	  ..........
+	second_param=5;
+	}
