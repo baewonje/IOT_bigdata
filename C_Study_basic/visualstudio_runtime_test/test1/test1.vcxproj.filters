@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\2_intermediate\4_pointer\8_multi_dimension_array\5_385.c">
+    <ClCompile Include="..\..\4_struct\2_typedef\q1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
