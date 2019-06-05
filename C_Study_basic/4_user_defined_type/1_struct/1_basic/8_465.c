@@ -4,6 +4,7 @@
 #pragma warning (disable:4996)
 
 struct point {
+	char name[20];
 	int xpos;
 	int ypos;
 };

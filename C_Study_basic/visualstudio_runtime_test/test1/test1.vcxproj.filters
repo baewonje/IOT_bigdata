@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\4_struct\2_typedef\q1.c">
+    <ClCompile Include="..\..\5_file\q1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
